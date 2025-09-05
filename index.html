@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap/icons/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="assets/css/fonts.css">
+        <title>Home Page</title>
+    </head>
+    <body class="d-flex flex-column min-vh-100">
+        <!-- CABEÇALHO -->
+        <header class="py-1 bg-black sticky-top">
+            <!-- MENU DE NAVEGAÇÃO -->
+            <nav class="navbar navbar-expand-lg navbar-dark" aria-current="page">
+                <div class="container container-fluid">
+                    <!-- BRAND -->
+                    <a class="navbar-brand nav-link font-math text-white display-1 fs-1" href="index.html"><i class="bi bi-table"></i> detNull</a>
+
+                    <!-- BOTÃO DO MENU -->
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainMenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- LINKS -->
+                    <div class="collapse navbar-collapse" id="mainMenu">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item ms-2 fs-5">
+                                <a href="index.html" class="nav-link active" role="button">Início</a>
+                            </li>
+                            <li class="nav-item ms-2 fs-5">
+                                <a href="src/pages/game.html" class="nav-link">Jogo</a>
+                            </li>
+                            <li class="nav-item ms-2 fs-5">
+                                <a href="src/pages/development.html" class="nav-link" role="button">Desenvolvimento</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- CONTEÚDO -->
+        <main class="d-flex flex-column flex-fill flex-grow-1 justify-content-center align-items-center bg-secondary pb-4 px-2">
+            <!-- CARROSSEL COM CONCEITOS -->
+            <section class="container mt-4 rounded rounded-3 bg-dark shadow-lg text-light">
+                <!-- TÍTULO -->
+                <h1 class="fs-3 m-2 mb-4">Conceitos</h1>
+
+                <!-- CARROSEL --->
+                <div id="conceitos" class="carousel slide pb-5" data-bs-ride="carousel">
+                    <!-- INDICADORES DO CARROSSEL -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#conceitos" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#conceitos" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#conceitos" data-bs-slide-to="2"></button>
+                    </div>
+
+                    <!-- ITENS DO CARROSSEL-->
+                    <div class="carousel-inner">
+                        <!-- ITEM 00 - MATRIZ -->
+                        <div class="carousel-item active" data-bs-interval="8000">
+                            <div class="container d-flex flex-column align-items-center justify-content-center">
+                                <div>
+                                    <h2 class="fs-4">Matrizes</h2>
+                                    <p>
+                                        <span class="fw-bold">Matriz</span> é um quadro retângular composto por números.
+                                        Uma matriz costuma ser representada por uma letra maiúscula, tal como A, e tem um
+                                        determinado número de linhas (m) e de colunas (n). As matrizes tem que ser representadas
+                                        por letras maiúsculas, onde os elementos da matriz são representados por letras minúsculas.
+                                        Matrizes são usadas muito na área da computação, desenvolvimento de Softwares, problemas
+                                        em matemática, criação de tabelas ordenadas, como no caso do programa Excel.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ITEM 01 - DETERMINANTE -->
+                        <div class="carousel-item" data-bs-interval="8000">
+                            <div class="container d-flex flex-column align-items-center justify-content-center">
+                                <div>
+                                    <h2 class="fs-4">Determinantes</h2>
+                                    <p>
+                                        <span class="fw-bold">Determinante</span> é uma função matricial que associa a cada matriz quadrada um escalar, ou seja,
+                                        é uma função que transforma uma matriz quadrada em um número real. Uma determinante de uma matriz pode ser encontrada subtraindo
+                                        a diagonal principal pela diagonal secundária da matriz, existem dois jeitos comumente usados para encontrar o determinante de uma matriz: A regra de Sarrus, e o teorema de Laplace.
+                                        Sabendo determinantes, podemos entender outros conceitos, por exemplo: Se uma matriz é inversa ou não e se o sistema linear tem solução e é única.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ITEM 02 - SISTEMA LINEAR -->
+                        <div class="carousel-item" data-bs-interval="8000">
+                            <div class="container d-flex flex-column align-items-center justify-content-center">
+                                <div>
+                                    <h2 class="fs-4">Sistemas Lineares</h2>
+                                    <p>
+                                        <span class="fw-bold">Sistema Linear</span> é um conjunto finito de equações lineares aplicadas num mesmo conjunto,
+                                        igualmente finito, de variáveis. Um sistema linear pode ser possível e determinado, tendo somente uma solução,
+                                        pode ser possível e inderteminado, tendo várias soluções ou pode ser impossível, onde não há
+                                        solução. Um sistema linear é um conjunto de equações do primeiro grau, a solução do sistema é onde as retas se
+                                        cruzam, sendo as retas concorrentes representando um sistema determinado, as retas coincidentes um sistema inderteminado e
+                                        as retas paralelas representando um sistema impossível.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SOBRE O JOGO -->
+            <section class="container mt-4 rounded rounded-3 bg-dark shadow-lg text-light">
+                <!-- TÍTULO -->
+                <h1 class="fs-3 m-2 mb-4">Sobre o Jogo</h1>
+
+                <!-- DESENVOLVIMENTO -->
+                <div class="container">
+                    <h2 class="fs-4">Desenvolvimento</h2>
+
+                    <p>
+                        O jogo foi desenvolvido digitalmente com foco em acessibilidade e simplicidade. Utilizou-se um design básico e responsivo, pensado especialmente para dispositivos móveis. As cores escuras foram escolhidas para favorecer pessoas com sensibilidade visual. Todo o projeto, desde o design até a codificação, foi concluído em três semanas.
+                    </p>
+                </div>
+            </section>
+
+            <!-- TECNOLOGIAS USADAS -->
+            <section class="container mt-4 pb-2 rounded rounded-3 bg-dark shadow-lg text-light">
+                <!-- TÍTULO -->
+                <h1 class="fs-3 m-2 mb-4">Tecnologias utilizadas</h1>
+
+                <!-- HTML -->
+                <div class="container">
+                    <h2 class="fs-4" data-bs-toggle="collapse" href="#html-desc" role="button"><i class="bi bi-filetype-html"></i> HTML</h2>
+                    <p class="collapse ps-4 fs-6" id="html-desc">
+                        Hypertext Markup Language (HTML) é a linguagem de marcação padrão para documentos projetados para serem exibidos em um navegador web. Ela define o conteúdo e a estrutura do conteúdo da web. Frequentemente é assistida por tecnologias como Cascading Style Sheets (CSS) e linguagens de script como JavaScript, uma linguagem de programação.
+                    </p>
+                </div>
+
+                <!-- CSS -->
+                <div class="container">
+                    <h2 class="fs-4" data-bs-toggle="collapse" href="#css-desc" role="button"><i class="bi bi-filetype-css"></i> CSS</h2>
+                    <p class="collapse ps-4 fs-6" id="css-desc">
+                        Cascading Style Sheets (CSS) é um mecanismo para adicionar estilos (cores, fontes, espaçamento, etc.) a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags &ltstyle&gt. Também é possível, adicionar estilos adicionando um link para um arquivo CSS que contém os estilos. Assim, quando se quiser alterar a aparência dos documentos vinculados a este arquivo CSS, basta modifica-lo.
+                    </p>
+                </div>
+
+                <!-- BOOTSTRAP -->
+                <div class="container">
+                    <h2 class="fs-4" data-bs-toggle="collapse" href="#bootstrap-desc" role="button"><i class="bi bi-bootstrap"></i> Bootstrap</h2>
+                    <p class="collapse ps-4 fs-6" id="bootstrap-desc">
+                        Bootstrap (anteriormente Twitter Bootstrap) é um framework CSS gratuito e de código aberto direcionado ao desenvolvimento web responsivo e mobile-first front-end. Ele contém HTML, CSS e (opcionalmente) modelos de design baseados em JavaScript para tipografia, formulários, botões, navegação e outros componentes de interface.
+                    </p>
+                </div>
+
+                <!-- JAVASCRIPT -->
+                <div class="container">
+                    <h2 class="fs-4" data-bs-toggle="collapse" href="#js-desc" role="button"><i class="bi bi-javascript"></i> JavaScript</h2>
+                    <p class="collapse ps-4 fs-6" id="js-desc">
+                        JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web. JavaScript permite páginas da Web interativas e, portanto, é uma parte essencial dos aplicativos da web.
+                    </p>
+                </div>
+
+                <!-- JQUERY -->
+                <div class="container">
+                    <h2 class="fs-4" data-bs-toggle="collapse" href="#jquery-desc" role="button"><i class="bi bi-filetype-js"></i> jQuery</h2>
+                    <p class="collapse ps-4 fs-6" id="jquery-desc">
+                        jQuery é uma biblioteca de código aberto baseada na licença MIT. Possui sintaxe que simplifica: a navegação do documento HTML, a seleção de elementos DOM, criar animações, manipular eventos, desenvolver aplicações AJAX e, criar plugins sobre ela. Tais facilidades permitem a criação de camadas de abstração, para interações de baixo nível de modo simplificado em aplicações web dinâmicas de grande complexidade.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <!-- RODAPÉ -->
+        <footer class="d-flex justify-content-center bg-black text-white ">
+            <div class="d-flex flex-row flex-wrap">
+                <!--CRÉDITOS-->
+                <div class="d-flex flex-column mx-5 p-2">
+                    <h5 class=" p-1">
+                        Jogo Desenvolvido por:
+                    </h5>
+                        <ul class="m-0 list-unstyled">
+                            <li>Paulo Pinheiro da Silva Fraga</li>
+                            <li>Anthony Souza Antônio Pedro</li>
+                            <li>Marcos Guilherme Sócrates Moraes</li>
+                            <li>João Vieira Almeida Silva</li>
+                        </ul>
+                </div>
+    
+                <!--CONTATO-->
+                <div class="d-flex flex-column mx-5 p-2">
+                    <h5 class=" p-1">
+                        Contato:
+                    </h5>
+                    <ul class="m-0 list-unstyled">
+                        <li>paulosocratesdesouza@gmail.com</li>
+                        <li>anthonyguilhermevieiramoraes@gmail.com</li>
+                        <li>marcosantonioalmeida@gmail.com</li>
+                        <li>joaofragapereira@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+</html>
