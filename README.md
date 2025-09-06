@@ -18,8 +18,11 @@ Um determinante é um número que representa propriedades de uma matriz quadrada
 
 ## 🕹️ Como jogar
 Siga o passo a passo e divirta-se:
-3. Vá até a aba do jogo.
-4. Se divirta praticando as relações entre os valores de determinates.
+1. O jogo irá gerar uma matriz 3x3 com valores aleatórios.
+2. Abaixo da matriz há quatro opções, cada uma representando uma relação.
+3. Cabe ao usuário escolher a propriedade que faz com que o determinate daquela matriz seja nulo.
+4. Sabendo das regras e das relações, se divirta praticando e fixando.
+Obs: Abaixo das opções há uma lista com as relações em caso de dúvida.
 
 ---
 
