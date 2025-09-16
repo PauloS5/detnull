@@ -1,7 +1,5 @@
 # 🎲 DetNull
 
----
-
 ## 🎮 Sobre o jogo
 **DetNull** é um jogo divertido e educativo sobre **determinantes**.  
 Aprenda matemática de maneira interativa enquanto se diverte! 🧮✨
