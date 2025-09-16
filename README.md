@@ -1,7 +1,5 @@
 # 🎲 DetNull
 
-![Game Banner](https://img.shields.io/badge/DetNull-Jogo_de_Determinantes-blue?style=for-the-badge)
-
 ---
 
 ## 🎮 Sobre o jogo
